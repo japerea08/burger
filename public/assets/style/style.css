@@ -1,0 +1,68 @@
+#burger_image{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.header{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+#burgerText{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+#submit-button{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.column{
+	float: left;
+	width: 50%
+}
+
+#form-header{
+	clear: both;
+}
+ol{
+	text-align: center;
+  	list-style-position: inside
+}
+p{
+	display: inline-block;
+	font-family: "Comic Sans MS", cursive, sans-serif
+	
+}
+body{
+	margin: auto;
+}
+
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.devour-it{
+	 background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+}

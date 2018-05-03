@@ -1,0 +1,40 @@
+<img src="/assets/images/burger_image.jpg" id="burger_image">
+<h1 class="header">Eat-Da-Burger</h1>
+
+<div id="left-column" class="column">
+	<h2 class="header">Burgers to be eaten</h2>
+	<ol>
+	  {{#each burgers}}
+	  {{#unless devoured}}
+	  	<li>
+	       <p>{{this.burger_name}}</p>
+	       <button class="devour-it" data-id = "{{this.id}}" data-devoured= "{{this.devoured}}">Devour It!</button>
+	  	</li>
+	  	{{/unless}}
+	  {{/each}}
+	</ol>
+	
+</div>
+
+<div class="column" id="right-column">
+	<h2 class="header">Burgers that have been eaten</h2>
+	<ol>
+		{{#each burgers}}
+		 {{#if devoured}}
+
+		 <li>
+		 	<p>{{this.burger_name}}</p>
+		 </li>
+		 {{/if}}
+		 {{/each}}
+	</ol>
+	
+</div>
+
+<h2 class="header" id="form-header">Enter the name of the burger you want to eat and hit Submit</h2>
+
+<form class="create-form">
+	<textarea type="text" name="burger" id="burgerText"></textarea>
+	<button class = "button" id="submit-button"  type="submit">Submit</button>
+</form>
+
