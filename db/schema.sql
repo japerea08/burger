@@ -1,9 +1,7 @@
 
 -- Create the database task_saver_db and specified it for use.
-CREATE DATABASE burgers_db;
-USE burgers_db;
+USE heroku_80b35b2ee1d6ee7;
 
-DROP if Exists burgers;
 -- Create the table tasks.
 CREATE TABLE burgers
 (
